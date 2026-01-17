@@ -1,9 +1,0 @@
-services:
-  postgres:
-    image: 'postgres:latest'
-    environment:
-      - 'POSTGRES_DB=nome_condominio'
-      - 'POSTGRES_PASSWORD=senha_gerada_aleatoriamente'
-      - 'POSTGRES_USER=nome_condominio_mais_alguma_coisa_pra_diferenciar'
-    ports:
-      - '5432'
